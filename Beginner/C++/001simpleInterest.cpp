@@ -10,3 +10,22 @@
 
 // Output:
 // Simple Interest = 100
+
+#include <iostream>
+using namespace std;
+
+
+int calculateSimpleInterest(float principal, float rate, float time)
+{
+    int SI = (principal * rate * time)/100;
+    return SI;
+}
+
+
+int main()
+{
+    int principal = 1000, rate = 5, time = 2;
+    int result = calculateSimpleInterest(principal, rate, time);
+    cout << "Simple Interest:" << result;
+    return 0;
+}
