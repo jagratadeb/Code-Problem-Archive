@@ -18,3 +18,32 @@
 // Sum of digits = 1 + 2 = 3
 // 12 % 3 = 0
 // Output: Yes
+
+#include <iostream>
+using namespace std;
+
+bool isHarshad(int n)
+{
+    int temp = n, sum = 0;
+    while (temp != 0)
+    {
+        sum += temp % 10;
+        temp /= 10;
+    }
+
+    return ((n % sum) == 0);
+}
+
+int main()
+{
+
+    int num = 1729;
+    bool result = isHarshad(num);
+
+    if (result)
+        cout << "Yes, it is a Harshad number.";
+    else
+        cout << "No, it is not a Harshad number.";
+
+    return 0;
+}

@@ -19,3 +19,27 @@
 // 12 % 3 = 0
 // Output: Yes
 
+class HarshadNumber{
+
+    boolean isHarshad(int n)
+    {
+        int sum = 0, temp = n;
+        while(temp != 0)
+        {
+            sum += temp % 10;
+            temp /= 10;
+        }
+        return ((n % sum) == 0);
+    }
+
+    public static void main(String[] args) {
+        int num = 1729;
+        HarshadNumber n = new HarshadNumber();
+        boolean result = n.isHarshad(num);
+
+        if (result)
+            System.out.println("Yes, it is a Harshad number.");
+        else
+            System.out.println("No, it is not a Harshad number.");
+    }
+}
