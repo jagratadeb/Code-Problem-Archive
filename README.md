@@ -6,19 +6,15 @@ A collection of coding problems solved in **C++** and **Java**, organized by dif
 
 ### [🟢 Beginner](./Beginner/README.md)
 Foundational problems covering basic data structures and algorithms.
-- Arrays & Strings
-- Basic Math
-- Simple Loops & Conditions
 
-**Problems Solved:** 0
+
+**Problems Solved:** 2
 
 ---
 
 ### [🟡 Intermediate](./Intermediate/README.md)
 More challenging problems requiring deeper understanding of DSA.
-- Advanced Data Structures
-- Dynamic Programming
-- Trees & Graphs
+
 
 **Problems Solved:** 0
 
@@ -40,9 +36,9 @@ javac FileName.java && java FileName
 
 | Level | Total | C++ | Java |
 |-------|-------|-----|------|
-| Beginner | 0 | 0 | 0 |
+| Beginner | 2 | 2 | 2 |
 | Intermediate | 0 | 0 | 0 |
-| **Total** | **0** | **0** | **0** |
+| **Total** | **2** | **2** | **2** |
 
 ---
 
