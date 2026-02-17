@@ -8,7 +8,7 @@ A collection of coding problems solved in **C++** and **Java**, organized by dif
 Foundational problems covering basic data structures and algorithms.
 
 
-**Problems Solved:** 2
+**Problems Solved:** 3
 
 ---
 
@@ -36,9 +36,9 @@ javac FileName.java && java FileName
 
 | Level | Total | C++ | Java |
 |-------|-------|-----|------|
-| Beginner | 2 | 2 | 2 |
+| Beginner | 3 | 3 | 3 |
 | Intermediate | 0 | 0 | 0 |
-| **Total** | **2** | **2** | **2** |
+| **Total** | **3** | **3** | **3** |
 
 ---
 
