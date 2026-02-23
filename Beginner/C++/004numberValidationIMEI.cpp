@@ -13,3 +13,50 @@
 // Input: 123456789012345
 // Sum = 60 (not divisible by 10)
 // Output: No
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+bool isValidIMEI(string s);
+
+int main()
+{
+    string s = "474154203237518";
+    cout << "Checking [" << s << "]" << endl;
+
+    if (isValidIMEI(s))
+    {
+        cout << "Yes";
+    }
+    else
+    {
+        cout << "No";
+    }
+
+    return 0;
+}
+
+bool isValidIMEI(string s)
+{
+    if (s.length() != 15)
+        return false;
+
+    bool alternate = false;
+    int sum = 0;
+
+    for (int i = 14; i >= 0; i--)
+    {
+        int digit = s[i] - '0';
+        if (alternate)
+        {
+            digit = 2 * digit;
+            if (digit > 9)
+                digit -= 9;
+        }
+        sum += digit;
+        alternate = !alternate;
+    }
+
+    return ((sum % 10) == 0);
+}

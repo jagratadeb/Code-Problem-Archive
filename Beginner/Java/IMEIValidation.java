@@ -13,3 +13,37 @@
 // Input: 123456789012345
 // Sum = 60 (not divisible by 10)
 // Output: No
+
+class IMEIValidation{
+    public static void main(String[] args) {
+        String s = "474154203237518";
+        System.out.println("Checking [" + s + "]");
+
+        if (isValidIMEI(s)) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+
+    public static boolean isValidIMEI(String s) {
+        if (s.length() != 15)
+            return false;
+
+        boolean alternate = false;
+        int sum = 0;
+
+        for (int i = 14; i >= 0; i--) {
+            int digit = s.charAt(i) - '0';
+            if (alternate) {
+                digit = 2 * digit;
+                if (digit > 9)
+                    digit -= 9;
+            }
+            sum += digit;
+            alternate = !alternate;
+        }
+
+        return ((sum % 10) == 0);
+    }
+}

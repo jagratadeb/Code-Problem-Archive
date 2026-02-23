@@ -12,6 +12,11 @@
 // Output: 4
 // (The longest sequence of consecutive 0's is "0000" which has length 4)
 
+// Input: 4
+// Binary: 100
+// Output: 2
+
+
 #include <iostream>
 using namespace std;
 
