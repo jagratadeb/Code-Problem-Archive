@@ -36,9 +36,9 @@ javac FileName.java && java FileName
 
 | Level | Total | C++ | Java |
 |-------|-------|-----|------|
-| Beginner | 3 | 3 | 3 |
+| Beginner | 4 | 4 | 4 |
 | Intermediate | 0 | 0 | 0 |
-| **Total** | **3** | **3** | **3** |
+| **Total** | **4** | **4** | **4** |
 
 ---
 
