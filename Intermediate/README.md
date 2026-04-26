@@ -4,9 +4,7 @@ Advanced problems requiring deeper DSA knowledge.
 
 ## 📋 Problem List
 
-| # | Problem | Description | C++ | Java |
-|---|---------|-------------|-----|------|
-| 1 | null | null | [✓](null) | [✓](null) |
+No problems added yet.
 
 
 ---
