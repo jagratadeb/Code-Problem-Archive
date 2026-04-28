@@ -7,7 +7,7 @@ A collection of coding problems solved in **C++** and **Java**, organized by dif
 ### [🟢 Beginner](./Beginner/README.md)
 Foundational problems covering basic data structures and algorithms.
 
-**Problems Solved:** 7
+**Problems Solved:** 16
 
 ---
 
@@ -32,9 +32,9 @@ java FileName
 
 | Level | Total | C++ | Java |
 |-------|-------|-----|------|
-| Beginner | 7 | 7 | 7 |
+| Beginner | 16 | 16 | 7 |
 | Intermediate | 0 | 0 | 0 |
-| **Total** | **7** | **7** | **7** |
+| **Total** | **16** | **16** | **7** |
 
 ---
 
