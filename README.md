@@ -32,9 +32,9 @@ java FileName
 
 | Level | Total | C++ | Java |
 |-------|-------|-----|------|
-| Beginner | 16 | 16 | 7 |
+| Beginner | 16 | 16 | 16 |
 | Intermediate | 0 | 0 | 0 |
-| **Total** | **16** | **16** | **7** |
+| **Total** | **16** | **16** | **16** |
 
 ---
 
