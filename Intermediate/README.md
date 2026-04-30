@@ -6,7 +6,7 @@ Advanced problems requiring deeper DSA knowledge.
 
 No problems added yet.
 
-
+> **Note:** Problems will be added when the beginner problems are completed.
 ---
 
 **Total Problems:** 0 | **C++:** 0 | **Java:** 0
