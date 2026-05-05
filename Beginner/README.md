@@ -22,10 +22,12 @@ Foundational problems to build strong DSA basics.
 | 14 | Decimal to Binary | Convert a decimal number into binary. | Repeatedly divide by 2 and collect remainders | [✓](./C++/004%20Module/007decimalToBinary.cpp) | [✓](./Java/004%20Module/DecimalToBinary.java) | [GFG](https://www.geeksforgeeks.org/problems/decimal-to-binary/1) |
 | 15 | Triangle Number Pattern | Print a triangle number pattern for a given size. | Use nested loops to print row-wise patterns | [✓](./C++/004%20Module/008triangleNumber.cpp) | [✓](./Java/004%20Module/TriangleNumber.java) | X |
 | 16 | Number Palindrome | Check whether a number is a palindrome. | Reverse the digits and compare with the original | [✓](./C++/004%20Module/009numberPalindrome.cpp) | [✓](./Java/004%20Module/NumberPalindrome.java) | [LeetCode](https://leetcode.com/problems/palindrome-number/) |
+| 17 | Merge Two Sorted Arrays | Merge two sorted arrays into a single sorted array. | Use two pointers to traverse both arrays and build merged result | [✓](./C++/005%20Module/001MergeTwoSortedArrays.cpp) | X | [LeetCode](https://leetcode.com/problems/merge-sorted-array/) |
+| 18 | Elements Less Than | Count or find elements that are less than a given value. | Single pass to filter and collect matching elements | [✓](./C++/005%20Module/002ElementsLessThan.cpp) | X | X |
 
 
 ---
 
-**Total Problems:** 16 | **C++:** 16 | **Java:** 16
+**Total Problems:** 18 | **C++:** 18 | **Java:** 16
 
 [← Back to Main](../README.md)
